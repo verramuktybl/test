@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.1/graphml.xsd">
+   <key id="labelV" for="node" attr.name="labelV" attr.type="string" />
+   <key id="name" for="node" attr.name="name" attr.type="string" />
+   <key id="labelE" for="edge" attr.name="labelE" attr.type="string" />
+   <graph id="G" edgedefault="directed">
+      <node id="1">
+         <data key="labelV">category</data>
+         <data key="name">Tablet</data>
+      </node>
+      <node id="2">
+         <data key="labelV">category</data>
+         <data key="name">Kok Badminton</data>
+      </node>
+      <edge id="1534-6bk-3yt-6eo" source="1" target="2">
+         <data key="labelE">complement</data>
+         <data key="totalView">100</data>
+         <data key="score">1000</data>
+      </edge>
+   </graph>
+</graphml>
