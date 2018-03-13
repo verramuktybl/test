@@ -10,8 +10,7 @@ import org.apache.tinkerpop.gremlin.structure.Vertex;
 import org.janusgraph.core.JanusGraph;
 import org.janusgraph.core.JanusGraphFactory;
 
-// test branch 1
-public class BulkUpdate {
+public class BulkUpdateTestBranch1 {
 	public static JanusGraph openGraph() {
 		JanusGraph graph = JanusGraphFactory.open("conf/janusgraph-cassandra-es.properties");
 		return graph;
